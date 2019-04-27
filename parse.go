@@ -31,7 +31,7 @@ type AuthorConfig struct {
 	Intro  string
 	Avatar string
 	Alipay string
-	WechatPay string
+	Wechatpay string
 }
 
 type BuildConfig struct {
