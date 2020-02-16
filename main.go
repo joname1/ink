@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/joname1/cli"
+	"github.com/urfave/cli"
 	"github.com/joname1/symwalk"
 	"gopkg.in/yaml.v2"
 	"html/template"
