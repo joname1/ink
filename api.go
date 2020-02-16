@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"github.com/joname1/ink.go"
-	"github.com/joname1/symwalk"
+	"github.com/facebookgo/symwalk"
 	"io/ioutil"
 	"mime/multipart"
 	"net/http"

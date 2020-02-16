@@ -8,7 +8,8 @@ import (
 	"path/filepath"
 	"strconv"
 	"time"
-	"github.com/joname1/feeds"
+
+	"github.com/gorilla/feeds"
 )
 
 type Data interface{}
@@ -110,7 +111,7 @@ func GenerateRSS(articles Collections) {
 			})
 		}
 		if atom, err := feed.ToAtom(); err == nil {
-			err := ioutil.WriteFile(filepath.Join(publicPath, "rss.xml"), []byte(atom), 0644)
+			err := ioutil.WriteFile(filepath.Join(publicPath, "atom.xml"), []byte(atom), 0644)
 			if err != nil {
 				Fatal(err.Error())
 			}

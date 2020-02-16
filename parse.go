@@ -6,6 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 	"time"
+
 	"github.com/joname1/blackfriday"
 	"gopkg.in/yaml.v2"
 )
@@ -29,8 +30,6 @@ type AuthorConfig struct {
 	Name   string
 	Intro  string
 	Avatar string
-	Alipay string
-	Wechatpay string
 }
 
 type BuildConfig struct {
