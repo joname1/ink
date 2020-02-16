@@ -6,8 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 	"time"
-
-	"github.com/InkProject/blackfriday"
+	"github.com/joname1/blackfriday"
 	"gopkg.in/yaml.v2"
 )
 

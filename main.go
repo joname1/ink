@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/codegangsta/cli"
-	"github.com/facebookgo/symwalk"
+	"github.com/joname1/cli"
+	"github.com/joname1/symwalk"
 	"gopkg.in/yaml.v2"
 	"html/template"
 	"time"

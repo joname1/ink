@@ -8,8 +8,7 @@ import (
 	"path/filepath"
 	"strconv"
 	"time"
-
-	"github.com/gorilla/feeds"
+	"github.com/joname1/feeds"
 )
 
 type Data interface{}

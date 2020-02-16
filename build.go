@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/facebookgo/symwalk"
+	"github.com/joname1/symwalk"
 )
 
 // Parse config
